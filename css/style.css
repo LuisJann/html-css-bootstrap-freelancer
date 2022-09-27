@@ -5,4 +5,23 @@ header{
 
 .box{
     background-color: lightskyblue;
+    border: 1px solid white;
+}
+
+#banner-section{
+    background-color: #1abc9c;
+}
+
+@media screen and (min-width: 768px) {
+    .box a{
+        display: none;
+    }
+
+    .d-none{
+        display: block;
+    }
+}
+
+#about-section{
+    background-color: #1abc9c;
 }

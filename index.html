@@ -11,6 +11,8 @@
     crossorigin="anonymous"
   />
   <link rel="stylesheet" href="css/style.css" />
+  <!-- FONT -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <title>Freelancer</title>
 </head>
 <body>
@@ -18,12 +20,17 @@
     <header>
         <div class="container-fluid">
             <div class="row">
-                <div class="col">
-                    <div class="box"><h2>Start bootstrap</h2></div>
+                <div class="col-8">
+                    <div class="box"><h2>START BOOTSTRAP</h2></div>
                 </div>
-                <div class="col">
+                <div class="col-4">
                     <div class="box text-end">
-                        <a href="">Menu</a>
+                        <a href=""><i class="fa-solid fa-bars"></i></a>
+                        <ul class="d-flex d-none">
+                            <li><a href=""></a>TEST</li>
+                            <li><a href=""></a>TEST</li>
+                            <li><a href=""></a>TEST</li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -32,12 +39,58 @@
     <!-- /HEADER -->
 
     <!-- BANNER -->
-
+    <section id="banner-section">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col box">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure quia neque dolores labore? Accusantium, libero iste harum, maxime quae consectetur adipisci sed, quibusdam exercitationem numquam atque reiciendis non. Et, voluptatem.</div>
+                <h1>START BOOTSTRAP</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+    </section>
     <!-- /BANNER -->
 
     <!-- MAIN -->
-    <main></main>
+    <main>
+        <section id="portfolio">
+            <div class="container-fluid">
+                <h3 class="text-center">PORTFOLIO</h3>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+                    <div class="col box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, consectetur qui sapiente voluptate aperiam nisi soluta, quam id vel consequatur voluptatibus aspernatur assumenda, quis dignissimos laudantium unde omnis harum dolorum?</div>
+                    <div class="col box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, consectetur qui sapiente voluptate aperiam nisi soluta, quam id vel consequatur voluptatibus aspernatur assumenda, quis dignissimos laudantium unde omnis harum dolorum?</div>
+                    <div class="col box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, consectetur qui sapiente voluptate aperiam nisi soluta, quam id vel consequatur voluptatibus aspernatur assumenda, quis dignissimos laudantium unde omnis harum dolorum?</div>
+                    <div class="col box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, consectetur qui sapiente voluptate aperiam nisi soluta, quam id vel consequatur voluptatibus aspernatur assumenda, quis dignissimos laudantium unde omnis harum dolorum?</div>
+                    <div class="col box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, consectetur qui sapiente voluptate aperiam nisi soluta, quam id vel consequatur voluptatibus aspernatur assumenda, quis dignissimos laudantium unde omnis harum dolorum?</div>
+                    <div class="col box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, consectetur qui sapiente voluptate aperiam nisi soluta, quam id vel consequatur voluptatibus aspernatur assumenda, quis dignissimos laudantium unde omnis harum dolorum?</div>
+                </div>
+            </div>
+        </section>
+    </main>
     <!-- /MAIN -->
+
+    <!-- ABOUT -->
+    <section id="about-section">
+        <div class="container">
+            <h3 class="text-center">ABOUT</h3>
+            <div class="row row-cols-1 row-cols-md-2">
+                <div class="col">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sit pariatur, enim itaque quasi ipsa sunt excepturi quia at, maxime doloribus soluta dolor harum quae delectus quaerat ex asperiores necessitatibus!</div>
+                <div class="col">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto aspernatur eum laboriosam qui officia molestiae doloremque quasi aliquid enim dignissimos eos in vitae, possimus corporis aut dicta. Porro, iusto quidem.</div>
+            </div>
+        </div>
+    </section>
+    <!-- /ABOUT -->
+
+    <!-- CONTACT ME -->
+    <section id="contact-me">
+        <div class="container">
+            <h3 class="text-center">CONTACT-ME</h3>
+            <div class="row row-cols-1">
+                <div class="col box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur reprehenderit voluptate, atque architecto velit debitis est saepe dolorum aspernatur commodi? Quos corrupti temporibus, incidunt iusto quaerat eius nulla magnam dolorem.</div>
+                <div class="col box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, tempore eius rerum vel voluptatibus architecto fugit ducimus non tenetur harum fugiat cum unde nam porro nihil quae voluptate, ratione provident.</div>
+            </div>
+        </div>
+    </section>
+    <!-- /CONTACT ME -->
 
     <!-- FOOTER -->
     <footer></footer>
