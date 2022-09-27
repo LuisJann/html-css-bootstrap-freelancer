@@ -12,12 +12,17 @@ header{
     background-color: #1abc9c;
 }
 
+
+.list li{
+    display: none;
+}
+
 @media screen and (min-width: 768px) {
     .box a{
         display: none;
     }
 
-    .d-none{
+    .list li{
         display: block;
     }
 }
