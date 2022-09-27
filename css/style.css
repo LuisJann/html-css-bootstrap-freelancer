@@ -1,11 +1,16 @@
 header{
     background-color: #2c3e51;
-    height: 50px;
+    height: 80px;
 }
 
-.box{
-    background-color: lightskyblue;
-    border: 1px solid white;
+.container-small{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.box-img{
+    width: 50%;
+    margin: 0 auto;
 }
 
 #banner-section{
@@ -13,18 +18,23 @@ header{
 }
 
 
-.list li{
+.menu-xl{
     display: none;
 }
 
 @media screen and (min-width: 768px) {
-    .box a{
+    .menu-small{
         display: none;
     }
 
-    .list li{
+    .menu-xl{
         display: block;
     }
+}
+
+img{
+    max-width: 100%;
+    border-radius: 20px;
 }
 
 #about-section{
@@ -37,4 +47,10 @@ header{
 
 #copyright-section{
     background-color: #2c3e51;
+}
+
+.button{
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 5px;
 }
