@@ -1,22 +1,16 @@
+/* UTILITIES */
+.button{
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* HEADER */
+
 header{
     background-color: #2c3e51;
     height: 80px;
 }
-
-.container-small{
-    width: 60%;
-    margin: 0 auto;
-}
-
-.box-img{
-    width: 50%;
-    margin: 0 auto;
-}
-
-#banner-section{
-    background-color: #1abc9c;
-}
-
 
 .menu-xl{
     display: none;
@@ -26,21 +20,57 @@ header{
     .menu-small{
         display: none;
     }
-
+    
     .menu-xl{
         display: block;
     }
 }
+
+/* BANNER */
+.box-img{
+    width: 50%;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+    .box-img{
+        width: 20%;
+    }
+}
+
+#banner-section{
+    background-color: #1abc9c;
+}
+
+/* PORTFOLIO */
 
 img{
     max-width: 100%;
     border-radius: 20px;
 }
 
+
+/* ABOUT */
 #about-section{
     background-color: #1abc9c;
 }
 
+
+/* CONTACT ME */
+.container-small{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.cta{
+    background-color: #1abc9c;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+/* FOOTER */
 #footer-section{
     background-color: #3a546d;
 }
@@ -49,8 +79,3 @@ img{
     background-color: #2c3e51;
 }
 
-.button{
-    border: 1px solid white;
-    padding: 10px;
-    border-radius: 5px;
-}
