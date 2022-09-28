@@ -18,23 +18,23 @@
 <body>
     <!-- HEADER -->
     <header class="d-flex align-items-center">
-        <div class="container-fluid">
+        <nav class="container-fluid">
             <div class="row align-items-center">
                 <div class="col-8 offset-md-1 col-md-6 text-white">
                     <div class="box"><h2>START BOOTSTRAP</h2></div>
                 </div>
-                <div class="col-4">
+                <div class="col-4 pt-3">
                     <div class="box text-end">
-                        <a class="menu-small button" href=""><i class="fa-solid fa-bars text-white"></i></a>
+                        <a class="button d-md-none" href=""><i class="fa-solid fa-bars text-white"></i></a>
                         <ul class="d-flex list justify-content-end">
-                            <li class="ms-2 menu-xl" ><a class="text-white text-decoration-none" href="">PORTFOLIO</a></li>
-                            <li class="ms-2 menu-xl" ><a class="text-white text-decoration-none" href="">ABOUT</a></li>
-                            <li class="ms-2 menu-xl" ><a class="text-white text-decoration-none" href="">CONTACT</a></li>
+                            <li class="ms-2 d-none d-md-block" ><a class="text-white text-decoration-none" href="#portfolio">PORTFOLIO</a></li>
+                            <li class="ms-2 d-none d-md-block" ><a class="text-white text-decoration-none" href="#about-section">ABOUT</a></li>
+                            <li class="ms-2 d-none d-md-block" ><a class="text-white text-decoration-none" href="#contact-me">CONTACT</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
-        </div>
+        </nav>
     </header>
     <!-- /HEADER -->
 
@@ -48,6 +48,7 @@
                     </div>
                 </div>
                 <h1 class="text-white">START BOOTSTRAP</h1>
+                <p class="text-white"><i class="fs-3 fa-solid fa-star"></i></p>
                 <p class="text-white">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
             </div>
         </div>
@@ -59,6 +60,7 @@
         <section class="mt-3" id="portfolio">
             <div class="container">
                 <h3 class="text-center">PORTFOLIO</h3>
+                <p class="text-center"><i class="fs-3 fa-solid fa-star"></i></p>
                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 mt-3">
                     <div class="col">
                         <div class="box mt-3">
@@ -91,25 +93,27 @@
     <!-- ABOUT -->
     <section class="mt-3 pb-3" id="about-section">
         <div class="container-small pt-3 pb-3">
-            <h3 class="text-center text-white mt-3">ABOUT</h3>
-            <div class="row row-cols-1 row-cols-md-2 justify-content-center mt-4">
-                <div class="col">
-                    <div class="box text-white mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit culpa nostrum ratione eum et molestias eveniet facere? Maiores eos reprehenderit, exercitationem perferendis, numquam mollitia fugit nisi et rem enim molestiae.</div>
-                </div>
-                <div class="col">
-                    <div class="box text-white mt-3">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat aperiam quaerat perspiciatis, nesciunt commodi aspernatur cupiditate quibusdam voluptatum. Ducimus saepe cumque dolores magnam earum vero deserunt quod.
+            <div class="container-fluid">
+                <h3 class="text-center text-white mt-3">ABOUT</h3>
+                <p class="text-center text-white"> <i class="fs-3 fa-solid fa-star"></i></p>
+                <div class="row row-cols-1 row-cols-md-2 justify-content-center mt-4">
+                    <div class="col">
+                        <div class="box text-white mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit culpa nostrum ratione eum et molestias eveniet facere? Maiores eos reprehenderit, exercitationem perferendis, numquam mollitia fugit nisi et rem enim molestiae.</div>
                     </div>
-                </div>
-                <div class="row mt-5">
-                    <div class="col-12 text-center">
-                        <div class="box">
-                            <a class="button text-white" href=""><i class="fa-solid fa-download"> Download</i></a>
+                    <div class="col">
+                        <div class="box text-white mt-3">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat aperiam quaerat perspiciatis, nesciunt commodi aspernatur cupiditate quibusdam voluptatum. Ducimus saepe cumque dolores magnam earum vero deserunt quod.
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col-12 text-center">
+                            <div class="box">
+                                <a class="button text-white" href=""><i class="fa-solid fa-download"> Download</i></a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-
         </div>
     </section>
     <!-- /ABOUT -->
@@ -117,25 +121,29 @@
     <!-- CONTACT ME -->
     <section id="contact-me">
         <div class="container-small mt-5">
-            <h3 class="text-center">CONTACT-ME</h3>
-            <div class="row row-cols-1">
-                <div class="col">
-                    <div class="box">
-                        <ul class="list-unstyled">
-                            <li>Name</li>
-                            <hr>
-                            <li>Email Address</li>
-                            <hr>
-                            <li>Phone Number</li>
-                            <hr>
-                        </ul>
-                        <span class="mt-1">Message</span>
+            <div class="container-fluid">
+                <h3 class="text-center">CONTACT-ME</h3>
+                <p class="text-center"><i class="fs-3 fa-solid fa-star"></i></p>
+                <p class="text-center text-white"><i class="fs-3 fa-solid fa-star"></i></p>
+                <div class="row row-cols-1">
+                    <div class="col">
+                        <div class="box">
+                            <ul class="list-unstyled">
+                                <li>Name</li>
+                                <hr>
+                                <li>Email Address</li>
+                                <hr>
+                                <li>Phone Number</li>
+                                <hr>
+                            </ul>
+                            <span class="mt-1">Message</span>
+                        </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="box mt-5">
-                        <hr>
-                        <a class="cta" href="">Send</a>
+                    <div class="col">
+                        <div class="box mt-5">
+                            <hr>
+                            <a class="cta" href="">Send</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -157,7 +165,7 @@
                     <div class="col">
                         <div class="box text-center text-white mt-3">
                             <h6>AROUND THE WEB</h6>
-                            <SPAN><i class="fa-brands fa-facebook-f"></i> <i class="fa-brands fa-google-plus-g"></i> <i class="fa-brands fa-twitter"></i> <i class="fa-brands fa-linkedin-in"></i></SPAN>
+                            <SPAN><i class="icon fa-brands fa-facebook-f"></i> <i class="icon fa-brands fa-google-plus-g"></i> <i class="icon fa-brands fa-twitter"></i> <i class="icon fa-brands fa-linkedin-in"></i></SPAN>
                         </div>
                     </div>
                     <div class="col">
@@ -173,7 +181,7 @@
             <div class="container">
                 <div class="row text-center">
                     <div class="col">
-                        <div class="box text-white">Copyright Your Website 2019</div>
+                        <div class="box text-white">Copyright &copy; Your Website 2019</div>
                     </div>
                 </div>
             </div>

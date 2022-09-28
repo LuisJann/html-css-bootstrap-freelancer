@@ -1,29 +1,19 @@
 /* UTILITIES */
 .button{
     border: 1px solid white;
-    padding: 10px;
+    padding: 5px;
     border-radius: 5px;
 }
 
-/* HEADER */
+.container-small{
+    width: 50%;
+    margin: 0 auto;
+}
 
+/* HEADER */
 header{
     background-color: #2c3e51;
     height: 80px;
-}
-
-.menu-xl{
-    display: none;
-}
-
-@media screen and (min-width: 768px) {
-    .menu-small{
-        display: none;
-    }
-    
-    .menu-xl{
-        display: block;
-    }
 }
 
 /* BANNER */
@@ -55,13 +45,12 @@ img{
     background-color: #1abc9c;
 }
 
-
-/* CONTACT ME */
-.container-small{
-    width: 50%;
-    margin: 0 auto;
+img:hover{
+    transform: scale(1.1);
 }
 
+
+/* CONTACT ME */
 .cta{
     background-color: #1abc9c;
     text-decoration: none;
@@ -73,6 +62,16 @@ img{
 /* FOOTER */
 #footer-section{
     background-color: #3a546d;
+}
+
+.icon{
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 10px;
+    width: 37px;
+    height: 37px;
+    vertical-align: middle;
+    text-align: center;
 }
 
 #copyright-section{
