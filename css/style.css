@@ -10,11 +10,26 @@
     margin: 0 auto;
 }
 
+.ms-line{
+    border: 2px solid;
+    border-radius: 5px;
+    width:auto;
+    margin: 0 auto;
+}
 
+
+p{
+    margin-bottom: 0rem;
+}
 /* HEADER */
 header{
     background-color: #2c3e51;
     height: 80px;
+}
+
+.navbar-toggler{
+    color: white;
+    border: 1px solid white;
 }
 
 /* BANNER */
@@ -31,6 +46,7 @@ header{
 
 #banner-section{
     background-color: #1abc9c;
+    padding-bottom: 50px;
 }
 
 /* PORTFOLIO */
