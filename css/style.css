@@ -133,6 +133,7 @@ img:hover{
 
 .form-control:focus{
     box-shadow: none;
+    border-color: #1abc9c;
 }
 
 .btn-primary{
@@ -143,6 +144,11 @@ img:hover{
 .btn:first-child:hover, :not(.btn-check)+.btn:hover{
     background-color: #16ab8e;
     border: 1px solid #16ab8e ;
+}
+
+.btn:focus-visible{
+    background-color: #16ab8e;
+    border-color: #1abc9c;
 }
 
 /* FOOTER */
